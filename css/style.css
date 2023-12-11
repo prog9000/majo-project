@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav::before{
+    content: "";
+    background: url('../doctors-day-cute-young-handsome-man-lab-coat-glasses-smiling-holding-book.jpg') no-repeat center center/cover;
+    width:100vw;
+    height: 100vh;
+    position: absolute;
+    top:7em;
+    left:0;
+    z-index: -1;
+    opacity: 0.89;
+    box-shadow: 2px 2px 6px black;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2em;
+    font-size: 1.5em;
+}
+.logo .heading1{
+    margin-left: 1.5em;
+    color: black;
+    font-weight: bolder;
+}
+.logo .heading2{
+    margin-left: 0.5em;
+    font-weight: bolder;
+    color: #279eff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+}
+.ullist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8em;
+    margin-left: 10em;
+}
+.ullist li{
+    list-style: none;
+}
+.ullist li a{
+    text-decoration: none;
+    padding: 10px 2em;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.ullist li a:hover{
+    text-decoration:overline;
+    color: black;
+    text-decoration-color: #279eff;
+}
+.button-section{
+    position: absolute;
+    bottom:-6em;
+    left:10em;
+}
+.button-section button{
+    width:15em;
+    height: 4em;
+    background-color: #1aacac;
+    color:white;
+    border-color: #1aacac;
+    border-radius: 4px;
+}
+.button-section button:hover{
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+.content-section{
+    color:white;
+    font-weight: bold;
+    position: absolute;
+    left:1em;
+    top:7em;
+    font-size: 3em;
+}
+.content-section .span2{
+    position: relative;
+    top:2em;
+    left:-7em;
+}
